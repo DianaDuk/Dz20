@@ -1,11 +1,9 @@
-import Glide from '@glidejs/glide';
+/*import Glide from '';
 
-// Ініціалізація Glide
+document.addEventListener('DOMContentLoaded', () =>{
 new Glide('.glide', {
     type: 'carousel',
-    startAt: 0,
     perView: 1,
-    focusAt: 'center',
-    bound: true,
-    autoplay: 3000,
+    autoplay: 2000,
 }).mount();
+});*/

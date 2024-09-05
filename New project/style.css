@@ -3,9 +3,11 @@ body {
 }
 
 #map {
-    width: 80%;
-    margin: 20px auto;
-    height: 400px;
+    width: 80%;        
+    height: 50vh;      
+    margin: 20px auto; 
+    border: 2px solid #ccc; 
+    border-radius: 10px;    
 }
 
 .glide {
@@ -14,16 +16,16 @@ body {
     position: relative;
 }
 
-.glide__container {
+.glide__track {
     width: 100%;
-    height: 500px;
+    height: 500px; /* Высота контейнера для изображений */
     overflow: hidden;
 }
 
 .glide__slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Вирівнює зображення по контейнеру */
+    width: 50%;
+    height: 50%;
+    object-fit: cover; /* Обеспечивает обрезку изображений по размеру контейнера */
 }
 
 .glide__arrows {
@@ -36,28 +38,30 @@ body {
 }
 
 .glide__arrow {
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
+    /*background: rgba(0, 0, 0, 0.5);*/
+    color: #0474f5;
     border: none;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
+    border-radius: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     outline: none;
-    font-size: 16px;
+    font-size: 70px;
 }
 
-.glide__arrow:hover {
+/*.glide__arrow:hover {
     background: rgba(0, 0, 0, 0.7);
-}
+    size: 70px;
+}*/
 
 .glide__arrow--left {
-    left: 10px;
+    left: 2px;
 }
 
 .glide__arrow--right {
-    right: 10px;
+    right: 2px;
 }
+
